@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jahongirov Shaxboz Jahongir o‘g‘li</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(45deg, #1e3c72, #2a5298);
+            color: white;
+            line-height: 1.6;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 100px 20px;
+            animation: fadeInTop 2s ease-in-out;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #fff;
+            animation: slideFromLeft 1s ease-out;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #f0f0f0;
+            animation: slideFromLeft 1s ease-out;
+        }
+
+        /* About Section */
+        .about {
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.6);
+            margin: 50px 0;
+            border-radius: 15px;
+            max-width: 1000px;
+            margin: 50px auto;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .about h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #ff6347;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            color: #f0f0f0;
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        /* Contacts Section */
+        .contacts {
+            background: #1a2b47;
+            padding: 50px 20px;
+            border-radius: 15px;
+            margin-top: 50px;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .contacts h2 {
+            font-size: 2.5rem;
+            color: #ff6347;
+            margin-bottom: 20px;
+            animation: slideFromRight 1.5s ease-out;
+        }
+
+        .contacts p {
+            font-size: 1.2rem;
+            color: #f0f0f0;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        footer p {
+            color: white;
+            font-size: 1rem;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInTop {
+            0% {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideFromLeft {
+            0% {
+                transform: translateX(-50px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideFromRight {
+            0% {
+                transform: translateX(50px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            .about h2, .contacts h2 {
+                font-size: 2rem;
+            }
+
+            .about p, .contacts p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jahongirov Shaxboz Jahongir o‘g‘li</h1>
+        <p>IT dizayner, web dasturchi va onlayn pul topish mutaxassisi</p>
+    </header> <section class="about">
+        <h2>Haqqimda</h2>
+        <p>Men, Jahongirov Shaxboz Jahongir o‘g‘li, 2010-yil 12-martda tug‘ilganman. Hozirda IT dizayner va web dasturchi sifatida faoliyat yuritaman. Kompyuter savodxonligi va onlayn pul topish sohalarida ham ishlayman. Yillar davomida ko‘plab loyihalar ustida ishladim va o‘zimni bu sohada mukammal mutaxassis sifatida rivojlantirdim. <strong>Fayz Kafesi</strong> nomli Instagram sahifalarini yaratib, ularni samarali boshqarish orqali turli sohalarda o'z bilimlarimni sinab ko‘rganman.</p>
+        <p>Men har doim yangi bilimlarni o'rganishni va amaliyotda qo‘llashni afzal ko‘raman. Agar sizga yordam kerak bo‘lsa, menga murojaat qilishingiz mumkin. Men har doim o‘rganishga tayyorman.</p>
+    </section>
+
+    <section class="contacts">
+        <h2>Aloqa</h2>
+        <p>Telefon: <strong>+998336770020</strong></p>
+        <p>Telegram: <strong>@jakhongirovvv</strong></p>
+        <p>Instagram: <strong>@qwerty.shxx7</strong></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jahongirov Shaxboz</p>
+    </footer>
+
+</body>
+</html>
